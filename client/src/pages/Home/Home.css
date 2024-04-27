@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.home-container {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.buttons-container {
+  text-align: center;
+}
+
+.create-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-button:hover {
+  background-color: #0056b3;
+}
+
+.workflow-container {
+  margin-top: 30px;
+}
+.workflow-container-wrapper {
+  display: flex;
+  gap: 15px;
+}
+.subtitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.select-box {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ced4da;
+  background-color: #f9f9f9;
+  color: #333333;
+}
+
+/* Link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Button inside Link styles */
+a .create-button {
+  text-decoration: none;
+  color: white;
+}
+
+.card {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.card-title {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.run-button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.run-button:hover {
+  background-color: #218838;
+}

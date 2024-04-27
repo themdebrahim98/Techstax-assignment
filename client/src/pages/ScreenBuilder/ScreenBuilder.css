@@ -1,0 +1,88 @@
+.screenBuilder {
+  max-width: 1400px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.screenBuilderWrapper {
+  height: 80%;
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 25px;
+}
+
+.screenBuilderWrapperLeft {
+  background-color: #dddddd;
+  flex-basis: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.buttonGroup {
+  display: flex;
+  flex-direction: column; /* Arrange buttons vertically */
+  gap: 8px;
+}
+
+.styledButton {
+  background-color: #4caf50; /* Green background */
+  border: none;
+  color: white;
+  padding: 10px 20px; /* Padding */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.saveBtnWrapper {
+  background-color: transparent;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 5px;
+}
+
+.saveBtn {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.saveBtn:hover {
+  background-color: #45a049;
+}
+
+.workflowId {
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.screenBuilderWrapperRight {
+  /* background-color: pink; */
+  flex-grow: 1;
+  border: 2px dotted;
+}
+
+.reactFlowWrapper {
+  padding: 12px;
+  height: 100%;
+  max-width: 100%;
+  background-color: aliceblue;
+}

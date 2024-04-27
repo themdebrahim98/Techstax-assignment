@@ -1,0 +1,15 @@
+.not-found {
+  max-width: 600px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.message {
+  font-size: 18px;
+  color: #666666;
+}
