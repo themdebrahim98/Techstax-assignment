@@ -44,6 +44,10 @@ export default function ScreenBuilder() {
         </button>
         <h2 className="workflowId"> Workflow Id : {state.currWorkFlows?.id}</h2>
       </div>
+      <p>
+        <b>Note:</b>To delete Node or Edge, select Node or Edge and enter
+        backspace on keyboard.
+      </p>
       <div className="screenBuilderWrapper">
         <div className="screenBuilderWrapperLeft">
           <div className="buttonGroup">
